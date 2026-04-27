@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- =====================================================
+         Project Identity
+         Sahil Kundu — DSA Solutions · FAANG Preparation
+         ===================================================== -->
+    <groupId>com.sahilkundu.dsa</groupId>
+    <artifactId>dsa-solutions-java</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>DSA Solutions — Java</name>
+    <description>
+        Sahil Kundu's FAANG preparation repository.
+        280+ LeetCode solutions in Java, organized by pattern.
+        Every solution includes brute force, optimal approach,
+        Big-O analysis, and edge case handling.
+    </description>
+    <url>https://github.com/YOUR_USERNAME/dsa-solutions-java</url>
+
+    <!-- =====================================================
+         Developer Info
+         ===================================================== -->
+    <developers>
+        <developer>
+            <id>sahilkundu</id>
+            <name>Sahil Kundu</name>
+            <email>YOUR_EMAIL@gmail.com</email>
+            <url>https://github.com/YOUR_USERNAME</url>
+        </developer>
+    </developers>
+
+    <!-- =====================================================
+         Java Version
+         Always use Java 17+ for modern features:
+         - Records, sealed classes, text blocks
+         - Enhanced switch expressions
+         - Pattern matching instanceof
+         ===================================================== -->
+    <properties>
+        <java.version>17</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- Dependency versions — bump these periodically -->
+        <junit.jupiter.version>5.10.1</junit.jupiter.version>
+        <maven.surefire.version>3.2.2</maven.surefire.version>
+        <maven.compiler.version>3.11.0</maven.compiler.version>
+    </properties>
+
+    <!-- =====================================================
+         Dependencies
+         Only what's needed for a DSA repo:
+         - JUnit 5 for testing your solutions
+         - Nothing else — keep it lean
+         ===================================================== -->
+    <dependencies>
+
+        <!-- JUnit 5 — write test cases for every solution -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- JUnit Parameterized Tests — test multiple inputs cleanly -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <!-- =====================================================
+         Build Configuration
+         ===================================================== -->
+    <build>
+        <plugins>
+
+            <!-- Maven Compiler Plugin — enforce Java 17 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
+                    <!-- Show all warnings during compilation -->
+                    <compilerArgs>
+                        <arg>-Xlint:all</arg>
+                        <arg>-Xlint:-processing</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+
+            <!-- Maven Surefire Plugin — run JUnit 5 tests via mvn test -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surefire.version}</version>
+                <configuration>
+                    <!-- Run tests in parallel for speed -->
+                    <parallel>methods</parallel>
+                    <threadCount>4</threadCount>
+                    <!-- Show test output in console -->
+                    <useFile>false</useFile>
+                </configuration>
+            </plugin>
+
+        </plugins>
+
+        <!-- Source directory layout -->
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+    </build>
+
+</project>
