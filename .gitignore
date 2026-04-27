@@ -1,0 +1,78 @@
+# =====================================================
+# .gitignore — dsa-solutions-java
+# Sahil Kundu · FAANG Preparation Repository
+# =====================================================
+
+# ── Java Compiled Output ──────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ── Maven Build Output ────────────────────────────
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ── IntelliJ IDEA ─────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# ── VS Code ───────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Eclipse ───────────────────────────────────────
+.project
+.classpath
+.settings/
+bin/
+*.launch
+
+# ── NetBeans ──────────────────────────────────────
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ── OS Files ──────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
+log/
+
+# ── Temp / Scratch ────────────────────────────────
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+scratch/
+temp/
+todo/
+
+# ── Test Coverage Reports ─────────────────────────
+*.exec
+jacoco.exec
+
+# ── Runtime ───────────────────────────────────────
+*.pid
+*.seed
+*.pid.lock
