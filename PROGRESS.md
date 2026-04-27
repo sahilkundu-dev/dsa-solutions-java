@@ -90,7 +90,7 @@ Daily Streak  : 0 days 🔥
 
 ---
 
-### Week 1 — [27th April, 2026] to [3rd May. 2026]
+### Week 1 — [27th April, 2026] to [3rd May, 2026]
 
 **Topics covered:**
 - [ ] Arrays & Two Pointers — concept + problems
