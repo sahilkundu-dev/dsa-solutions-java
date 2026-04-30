@@ -90,7 +90,7 @@ Daily Streak  : 0 days 🔥
 
 ---
 
-### Week 1 — [27th April, 2026] to [3rd May, 2026]
+### Week 1 — [4th May, 2026] to [10th May, 2026]
 
 **Topics covered:**
 - [ ] Arrays & Two Pointers — concept + problems
@@ -144,7 +144,7 @@ Daily Streak  : 0 days 🔥
 
 ---
 
-### Week 2 — [4th May, 2026] to [10th May, 2026]
+### Week 2 — [11th May, 2026] to [17th May, 2026]
 
 > *(Fill in after Week 2 completes)*
 
@@ -180,7 +180,7 @@ Daily Streak  : 0 days 🔥
 
 ---
 
-### Week 3 — [11th May, 2026] to [17th May, 2026]
+### Week 3 — [18th May, 2026] to [24th May, 2026]
 
 > *(Fill after Week 3 completes)*
 
