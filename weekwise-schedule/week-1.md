@@ -6,7 +6,7 @@
 
 ## 🎯 Week 1 Overview
 
-**Dates:** [4th May, 2026] to [10th May, 2026]
+**Dates:** [11th May, 2026] to [17th May, 2026]
 
 **Topics This Week:**
 - Java fundamentals for DSA (arrays, collections, complexity)
@@ -178,8 +178,8 @@ for (int i = 0; i < original.length; i++) {
 ### Resources
 
 **YouTube:**
-1. [Java Arrays — Telusko (18 min)](https://www.youtube.com/watch?v=ei_4Nt7XWOw) — covers declaration, initialization, iteration
-2. [Java Arrays Deep Dive — Coding with John (22 min)](https://www.youtube.com/watch?v=L06uGnF4IpY) — memory model, common operations
+1. [Introduction to Arrays and ArrayList in Java — Kunal Kushwaha (1hr 45min)](https://www.youtube.com/watch?v=n60Dn0UsbEk&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=12) — covers how arrays works, the memory management, input/output, multidimensional arrays, dynamic arrays and working with functions.
+2. [Mastering Java Arrays: 1D, 2D, and Jagged Arrays Explained — Engineering Digest (35 min)](https://www.youtube.com/watch?v=UPjMnMkwKOQ) — memory model, common operations
 
 **Documentation:**
 1. [Oracle Java Arrays Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html) — official reference
@@ -388,9 +388,9 @@ public int[] twoSum(int[] nums, int target) {
 ### Resources
 
 **YouTube:**
-1. [Big-O Notation — CS Dojo (12 min)](https://www.youtube.com/watch?v=v4cd1O4zkGw) — visual, beginner-friendly
-2. [Time Complexity Analysis — Abdul Bari (20 min)](https://www.youtube.com/watch?v=9TlHvipP5yA) — detailed with examples
-3. [Big-O Cheat Sheet — NeetCode (15 min)](https://www.youtube.com/watch?v=BgLTDT03QtU) — practical pattern recognition
+1. [Big-O Notation — HackerRank (9 min)](https://www.youtube.com/watch?v=v4cd1O4zkGw) — visual, beginner-friendly
+2. [Time Complexity Analysis — Abdul Bari (Playlist)](https://www.youtube.com/playlist?list=PLepRVAscJb6hLEJu77Y9jon8e8S4iUYAg) — detailed with examples
+3. [Big-O Cheat Sheet — NeetCode (20 min)](https://www.youtube.com/watch?v=BgLTDT03QtU) — practical pattern recognition
 
 **Documentation:**
 1. [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) — visual reference for common algorithms
@@ -614,9 +614,9 @@ public boolean hasDuplicate(int[] arr) {
 ### Resources
 
 **YouTube:**
-1. [ArrayList vs Array — Coding with John (14 min)](https://www.youtube.com/watch?v=NbYgm0r7u6o)
-2. [HashMap Deep Dive — Telusko (18 min)](https://www.youtube.com/watch?v=c3RVW3KGIIE)
-3. [HashSet Explained — Alex Lee (12 min)](https://www.youtube.com/watch?v=QZsG0vRopKo)
+1. [ArrayList vs Array — Coding with John (17 min)](https://www.youtube.com/watch?v=NbYgm0r7u6o)
+2. [Introduction to HashMap & HashTable in Java — Kunal Kushwaha (1hr 40 min)](https://www.youtube.com/watch?v=XLbvmMz8Fr8)
+3. [Set and HashSet in Java — Coding with John (21 min)](https://www.youtube.com/watch?v=QvHBHuuddYk)
 
 **Documentation:**
 1. [Java Collections — Oracle Tutorial](https://docs.oracle.com/javase/tutorial/collections/index.html)
@@ -631,16 +631,54 @@ Write these methods:
 public Map<Character, Integer> charFrequency(String s) {
     // Your code
 }
+// Answer : 
+public Map<Character, Integer> charFrequency(String s) {
+    Map<Character, Integer> freq = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+    return freq;
+}
+// Time Complexity: O(n)
+// Space Complexity: O(k) -> where 'k' is the no. of unique elements
 
 // 2. Check if array has duplicates using HashSet
 public boolean hasDuplicates(int[] arr) {
     // Your code
 }
+// Answer :
+public boolean hasDuplicates(int[] arr) {
+    Set<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            if (set.contains(num)) {
+                return true;
+            }
+            set.add(num);
+        }
+    return false;
+}
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 
 // 3. Find first unique character in string using HashMap
 public char firstUnique(String s) {
     // Your code — return '\0' if none
 }
+// Answer : 
+public char firstUnique(String s) {     
+    Map<Character, Integer> found = new HashMap<>();
+        for (char c : s.toCharArray()) {
+            found.put(c, found.getOrDefault(c, 0) + 1);
+        }
+        for (char c : s.toCharArray()) {
+            if (found.get(c) == 1) {
+                return c;
+            }
+        }
+    return '\0';
+} 
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 ```
 
 **Done When:**
@@ -947,8 +985,8 @@ git push
 ### Resources
 
 **YouTube:**
-1. [Two Sum — NeetCode (11 min)](https://www.youtube.com/watch?v=KLlXCFG5TnA) — excellent visual walkthrough
-2. [Two Sum Explained — Nick White (8 min)](https://www.youtube.com/watch?v=XKu_SEDAykw) — clear, concise
+1. [Two Sum — NeetCode (8 min)](https://www.youtube.com/watch?v=KLlXCFG5TnA) — excellent visual walkthrough
+2. [2 Sum Problem — take U Forward (18 min)](https://www.youtube.com/watch?v=UXDSeD9mN-k&t=953s) — More in-depth, conceptual
 
 **Documentation:**
 1. [LeetCode Two Sum Solution Article](https://leetcode.com/problems/two-sum/solution/) — official explanations
