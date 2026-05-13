@@ -1,7 +1,7 @@
 # 📈 PROGRESS.md — Sahil Kundu's DSA Journey
 
 > **Mission:** 280 problems · 18 months · Zero to FAANG
-> **Started:** [27th April, 2026]
+> **Started:** [11th May, 2026]
 > **Target:** [Your Target Date — 18 months from start]
 > **Updated:** Every Sunday without exception
 
@@ -10,15 +10,15 @@
 ## 🔢 Overall Stats
 
 ```
-Total Solved  : 0 / 280  (0%)
-Easy          : 0 / 75
+Total Solved  : 1 / 280  (0.3%)
+Easy          : 1 / 75
 Medium        : 0 / 155
 Hard          : 0 / 50
 
 Current Phase : Month 1 — DSA Foundation
 Current Week  : Week 1
 Active Topic  : Arrays & Strings
-Daily Streak  : 0 days 🔥
+Daily Streak  : 3 days 🔥
 ```
 
 ---
@@ -31,7 +31,7 @@ Daily Streak  : 0 days 🔥
 
 | Week | Dates | Topics | Target | Solved | Test Score | Status |
 |------|-------|--------|--------|--------|------------|--------|
-| Wk 1 | — | Arrays · Two Pointers · Prefix Sum · Kadane's | 18 | 0 | — | 🔄 Active |
+| Wk 1 | 11th May - 17th May | Arrays · Two Pointers · Prefix Sum · Kadane's | 18 | 1 | — | 🔄 Active |
 | Wk 2 | — | LinkedList · Stacks · Monotonic Stack | 12 | 0 | — | 🔜 |
 | Wk 3 | — | Binary Search — all 3 forms | 10 | 0 | — | 🔜 |
 | Wk 4 | — | Integration · Mock · Full revision | 0 | 0 | — | 🔜 |
@@ -90,7 +90,7 @@ Daily Streak  : 0 days 🔥
 
 ---
 
-### Week 1 — [4th May, 2026] to [10th May, 2026]
+### Week 1 — [11th May, 2026] to [17th May, 2026]
 
 **Topics covered:**
 - [ ] Arrays & Two Pointers — concept + problems
@@ -144,7 +144,7 @@ Daily Streak  : 0 days 🔥
 
 ---
 
-### Week 2 — [11th May, 2026] to [17th May, 2026]
+### Week 2 — [18th May, 2026] to [24th May, 2026]
 
 > *(Fill in after Week 2 completes)*
 
@@ -180,7 +180,7 @@ Daily Streak  : 0 days 🔥
 
 ---
 
-### Week 3 — [18th May, 2026] to [24th May, 2026]
+### Week 3 — [25th May, 2026] to [31st May, 2026]
 
 > *(Fill after Week 3 completes)*
 
