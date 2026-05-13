@@ -31,7 +31,7 @@ Each entry has 5 fields:
 | Root Cause Category | Count | Last Occurred |
 |--------------------|-------|---------------|
 | Jumped to code without thinking | 0 | — |
-| Missed edge case (null/empty) | 0 | — |
+| Missed edge case (null/empty) | 1 | 13th May, 2026 |
 | Wrong pattern chosen | 0 | — |
 | Off-by-one error | 0 | — |
 | Incorrect complexity analysis | 0 | — |
@@ -51,21 +51,21 @@ Each entry has 5 fields:
 
 ### Entry #001
 
-**Date:** —
-**Problem:** [Problem Name] · [Easy/Medium/Hard] · [LeetCode link]
+**Date:** — 13th May, 2026
+**Problem:** [Two Sum] · [Easy] · [https://leetcode.com/problems/two-sum/]
 **Week:** Week 1 · Month 1
 
 **What went wrong:**
-> *(Describe exactly what happened. "I wrote the loop condition as `i <= arr.length` instead of `i < arr.length` and got ArrayIndexOutOfBoundsException" — not just "off-by-one error")*
+> *It was mentioned in the Question, that there must be atleast two elements present in the array. What I did wrong was, when writing the code, I missed out on the Edge case, i.e, "if(nums == null || nums.length < 2) { return new int[] {-1, -1}; }", this will not cause any error, but according to any Interview approach, I was not covering all the grounds for each and every Edge Cases.*
 
 **Root cause:**
-> *(Why did this happen? "I didn't trace through the last iteration mentally before submitting.")*
+> *Due to lack of Concentration, not reading the question properly and forgetting minute details while writing the code.*
 
 **Correct approach:**
-> *(What is the right way? Write it out fully.)*
+> *The right way, to avoid this mistake is to take small notes from the question in own words, and using comments in the code to not forget, before writing the code.*
 
 **My personal rule:**
-> *(One sentence. "Before finalising any loop, I will manually trace the first AND last iteration.")*
+> *My personal rule would be - take down small notes and write them in comments format in the code editor itself to not forget.*
 
 **Will I repeat this?** *(Cross this out when you've gone 2 weeks without this mistake)*
 
