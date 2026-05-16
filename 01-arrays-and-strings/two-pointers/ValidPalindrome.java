@@ -63,20 +63,20 @@ public class ValidPalindrome {
     // ── APPROACH 1: BRUTE FORCE ─────────────────────────────────────
     // T.C -> O(N)
     // S.C -> O(N)
-    public boolean isPalindrome(String s) {
-        StringBuilder filtered = new StringBuilder();
+    // public boolean isPalindrome(String s) {
+    //     StringBuilder filtered = new StringBuilder();
 
-        for (char c : s.toCharArray()) {
-            if (Character.isLetterOrDigit(c)) {
-                filtered.append(Character.toLowerCase(c));
-            }
-        }
+    //     for (char c : s.toCharArray()) {
+    //         if (Character.isLetterOrDigit(c)) {
+    //             filtered.append(Character.toLowerCase(c));
+    //         }
+    //     }
 
-        String clean = filtered.toString();
-        String reversed = filtered.reverse().toString();
+    //     String clean = filtered.toString();
+    //     String reversed = filtered.reverse().toString();
 
-        return clean.equals(reversed);
-    }
+    //     return clean.equals(reversed);
+    // }
 
     // ── APPROACH 2: OPTIMAL (Two Pointers) ──────────────────────────
     // T.C -> O(N)
