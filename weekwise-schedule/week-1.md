@@ -1263,9 +1263,10 @@ All characters matched → return true
 ### Resources
 
 **YouTube:**
-1. [Two Pointers Technique — NeetCode (15 min)](https://www.youtube.com/watch?v=On03HWe2tZM) — pattern recognition
-2. [Two Pointers Explained — Back To Back SWE (21 min)](https://www.youtube.com/watch?v=kW_A91xfb3M) — deep dive with examples
-3. [Two Sum II — Two Pointers — NeetCode (7 min)](https://www.youtube.com/watch?v=cQ1Oz4ckceM) — sorted array variant
+1. [Visual Representation Two Pointers Algorithm — Josh's DevBox (7 min)](https://www.youtube.com/watch?v=On03HWe2tZM) — pattern recognition
+2. [Two Pointers in 7 minutes — AlgoMasterIO (7 min)](https://www.youtube.com/watch?v=QzZ7nmouLTI) — deep dive with examples
+3. [How to Use the Two Pointer Technique - Team AlgoDaily (11 min)](https://www.youtube.com/watch?v=-gjxg6Pln50) - deep dive with examples
+4. [Two Sum II — Two Pointers — NeetCode (7 min)](https://www.youtube.com/watch?v=cQ1Oz4ckceM) — sorted array variant
 
 **Documentation:**
 1. [Two Pointers Pattern Guide — LeetCode Explore](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/) — interactive
