@@ -1515,7 +1515,7 @@ public class ValidPalindrome {
 ```
 
 **Resources:**
-- [Valid Palindrome — NeetCode (6 min)](https://www.youtube.com/watch?v=jJXJ16kPFWg)
+- [Valid Palindrome — NeetCode (15 min)](https://www.youtube.com/watch?v=jJXJ16kPFWg)
 
 **Done When:**
 - Solved in under 20 minutes from scratch
