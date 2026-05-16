@@ -10,15 +10,15 @@
 ## 🔢 Overall Stats
 
 ```
-Total Solved  : 1 / 280  (0.3%)
-Easy          : 1 / 75
-Medium        : 0 / 155
+Total Solved  : 4 / 280  (1.4%)
+Easy          : 3 / 75
+Medium        : 1 / 155
 Hard          : 0 / 50
 
 Current Phase : Month 1 — DSA Foundation
 Current Week  : Week 1
 Active Topic  : Arrays & Strings
-Daily Streak  : 3 days 🔥
+Daily Streak  : 6 days 🔥
 ```
 
 ---
@@ -31,7 +31,7 @@ Daily Streak  : 3 days 🔥
 
 | Week | Dates | Topics | Target | Solved | Test Score | Status |
 |------|-------|--------|--------|--------|------------|--------|
-| Wk 1 | 11th May - 17th May | Arrays · Two Pointers · Prefix Sum · Kadane's | 18 | 1 | — | 🔄 Active |
+| Wk 1 | 11th May - 17th May | Arrays · Two Pointers · Prefix Sum · Kadane's | 18 | 4 | — | 🔄 Active |
 | Wk 2 | — | LinkedList · Stacks · Monotonic Stack | 12 | 0 | — | 🔜 |
 | Wk 3 | — | Binary Search — all 3 forms | 10 | 0 | — | 🔜 |
 | Wk 4 | — | Integration · Mock · Full revision | 0 | 0 | — | 🔜 |
